@@ -1,6 +1,6 @@
 ##
 
-This fork is the primary community fork to ensure pull requests go through.
+This fork is the primary community fork to ensure pull requests go through. Collaborate with us @ https://discord.gg/wSD7huJ
 
 ## Gamesparks Unity Sources
 
