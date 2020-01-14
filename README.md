@@ -1,3 +1,7 @@
+##
+
+This fork is the primary community fork to ensure pull requests go through.
+
 ## Gamesparks Unity Sources
 
 This repository contains the sources for the binaries included with the GameSparks Unity SDK.
