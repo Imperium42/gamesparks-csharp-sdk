@@ -1,6 +1,9 @@
-##
+## Community Edition
 
-This fork is the primary community fork to ensure pull requests go through. Collaborate with us @ https://discord.gg/wSD7huJ
+* This fork is the primary community fork to ensure pull requests go through. Collaborate with us @ https://discord.gg/wSD7huJ
+* At the time of writin this, the parent fork had 2 commits. If this goes higher, let's remind each other to pull.
+
+________________________
 
 ## Gamesparks Unity Sources
 
