@@ -24,10 +24,13 @@ Using src code directly (opposed to DLLs) can allow you to easily edit src and s
 ```
 5. Create dir `./src`
 6. Drop everything from `/gs-csharp-community-sdk/Projects/` to the new `src` dir
-7. Open `/src/bccrypto-csharp-1.8.1/crypto/src` -> Remove `AssemblyInfo.cs` (it's a dupe)
+7. Open `/src/bccrypto-csharp-1.8.1/crypto/src` -> Rename `AssemblyInfo.cs` to `AssemblyInfo.cs.bak` (it's a dupe).
 8. Open Unity >> Refresh (CTRL+R), if necessary. 
 
 ✅ You're using native C# src! You can now utilize step-thru debugging with GS src.
+
+## TODO:
+1. Swap out native WebSocket (lacking support for .NET 4+) with *WebSocketSharp* (or other Win7-compatible + .NET 4+ compatible alternatives).
 
 ________________________
 
