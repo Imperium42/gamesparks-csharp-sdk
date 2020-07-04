@@ -1,7 +1,33 @@
 ## Community Edition
 
 * This fork is the primary community fork to ensure pull requests go through. Collaborate with us @ https://discord.gg/wSD7huJ #gs-general
-* At the time of writin this, the parent fork had 2 commits. If this goes higher, let's remind each other to pull.
+* At the time of writing this, the parent fork had 2 commits. If this goes higher, let's remind each other to pull.
+
+## Using Src Directly?
+Using src code directly (opposed to DLLs) can allow you to easily edit src and step-through via Visual Studio. If you want to swap your GS project from DLLs to src:
+
+1. Backup (Git?)
+2. CLOSE Unity (dll's persist while open)
+3. Find your /GameSparks dir, and **DELETE** all dirs (not files), leaving only:
+```
+/GameSparks
+  ./Editor
+  ./Platforms
+  ./Plugins
+  ./Resources
+  ./GameSparksSettings.cs
+  ./GameSparksUnity.cs
+  ./GameSparksRT.cs (If you use RT)
+  ./link.xml (IL2CPP)
+  ./MyGameSparks.cs
+  ./README.txt (Optional)
+```
+5. Create dir `./src`
+6. Drop everything from `/gs-csharp-community-sdk/Projects/` to the new `src` dir
+7. Open `/src/bccrypto-csharp-1.8.1/crypto/src` -> Remove `AssemblyInfo.cs` (it's a dupe)
+8. Open Unity >> Refresh (CTRL+R), if necessary. 
+
+✅ You're using native C# src! You can now utilize step-thru debugging with GS src.
 
 ________________________
 
