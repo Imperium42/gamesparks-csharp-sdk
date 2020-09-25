@@ -8,23 +8,18 @@ Using src code directly (opposed to DLLs) can allow you to easily edit src and s
 
 1. Backup (Git?)
 2. CLOSE Unity (dll's persist while open)
-3. Find your /GameSparks dir, and **DELETE** all dirs (not files), leaving only:
+3. Find your /GameSparks dir, and DELETE following files
 ```
 /GameSparks
-  ./Editor
-  ./Platforms
   ./Plugins
-  ./Resources
-  ./GameSparksSettings.cs
-  ./GameSparksUnity.cs
-  ./GameSparksRT.cs (If you use RT)
-  ./link.xml (IL2CPP)
-  ./MyGameSparks.cs
-  ./README.txt (Optional)
+    ./GameSparks.Api.dll
+    ./GameSparks.dll
+    ./GameSparksRT.dll
 ```
-5. Create dir `./src`
-6. Drop everything from `/gs-csharp-community-sdk/Projects/` to the new `src` dir
-7. Open `/src/bccrypto-csharp-1.8.1/crypto/src` -> Rename `AssemblyInfo.cs` to `AssemblyInfo.cs.bak` (it's a dupe).
+4. Create dir `./src`
+5. Drop everything from `/gs-csharp-community-sdk/Projects/` to the new `src` dir
+6. Open `/src/bccrypto-csharp-1.8.1/crypto/src` -> Rename `AssemblyInfo.cs` to `AssemblyInfo.cs.bak` (it's a dupe).
+7. Open `/src/Properties` -> Rename `AssemblyInfo.cs` to `AssemblyInfo.cs.bak` (it's a dupe).
 8. Open Unity >> Refresh (CTRL+R), if necessary. 
 
 ✅ You're using native C# src! You can now utilize step-thru debugging with GS src.
