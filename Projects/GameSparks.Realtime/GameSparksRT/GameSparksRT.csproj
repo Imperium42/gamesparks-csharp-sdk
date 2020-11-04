@@ -23,7 +23,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>none</DebugType>
+    <DebugType>pdbonly</DebugType>
     <Optimize>True</Optimize>
     <OutputPath>..\..\GameSparksUnity\Assets\GameSparks\</OutputPath>
     <ErrorReport>prompt</ErrorReport>
@@ -31,6 +31,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <Externalconsole>True</Externalconsole>
     <DocumentationFile>GameSparksRT.XML</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Proto\Packet.cs" />

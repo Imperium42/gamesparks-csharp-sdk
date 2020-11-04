@@ -21,7 +21,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>none</DebugType>
+    <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>..\GameSparksUnity\Assets\GameSparks\</OutputPath>
     <ErrorReport>prompt</ErrorReport>
@@ -29,7 +29,7 @@
     <Externalconsole>true</Externalconsole>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DocumentationFile>GameSparks.Api.XML</DocumentationFile>
-    <DebugSymbols>false</DebugSymbols>
+    <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

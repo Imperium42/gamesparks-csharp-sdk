@@ -32,6 +32,8 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <NoWarn>1591</NoWarn>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
