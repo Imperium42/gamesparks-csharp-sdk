@@ -20,13 +20,13 @@ Using src code directly (opposed to DLLs) can allow you to easily edit src and s
 5. Drop everything from `/gs-csharp-community-sdk/Projects/` to the new `src` dir
 6. Open `/src/bccrypto-csharp-1.8.1/crypto/src` -> Rename `AssemblyInfo.cs` to `AssemblyInfo.cs.bak` (it's a dupe).
 7. Open `/src/Properties` -> Rename `AssemblyInfo.cs` to `AssemblyInfo.cs.bak` (it's a dupe).
-8. Apply the [latest WebSocket patch](https://github.com/Imperium42/gs-csharp-community-sdk/issues/6)
+8. Apply the [latest WebSocket patch](https://github.com/Imperium42/gs-csharp-community-sdk/issues/4)
 9. Open Unity >> Refresh (CTRL+R), if necessary. 
 
 ✅ You're using native C# src! You can now utilize step-thru debugging with GS src.
 
 ## TODO:
-1. Full release instead of src+patch ([$500 AWS credits bounty](https://github.com/Imperium42/gs-csharp-community-sdk/issues/6) for pull request!)
+1. Full release instead of src+patch ([$500 AWS credits bounty](https://github.com/Imperium42/gs-csharp-community-sdk/issues/5) for pull request!)
 
 ________________________
 
