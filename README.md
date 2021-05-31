@@ -26,7 +26,7 @@ Using src code directly (opposed to DLLs) can allow you to easily edit src and s
 ✅ You're using native C# src! You can now utilize step-thru debugging with GS src.
 
 ## TODO:
-1. Full release instead of src+patch ([$500 AWS credits bounty](https://github.com/Imperium42/gs-csharp-community-sdk/issues/5) for pull request!)
+1. Full release instead of src+patch ([See Issue](https://github.com/Imperium42/gs-csharp-community-sdk/issues/5))
 
 ________________________
 
