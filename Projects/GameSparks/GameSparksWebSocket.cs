@@ -125,12 +125,9 @@ namespace GameSparks
 				ws.MessageReceived -= webSocketClient_MessageReceived;
 				ws.DataReceived -= webSocketClient_BinaryMessageReceived;
 			
-				ws.CloseWithoutHandshake();
+				ws.Close();
 
-				if (onClose != null)
-				{
-					onClose();
-				}
+				onClose?.Invoke();
 			}
 			catch (Exception e)
 			{
